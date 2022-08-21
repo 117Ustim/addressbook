@@ -1,0 +1,33 @@
+.add-contact {
+  display: flex;
+  justify-content: space-evenly;
+
+  .contact-form {
+    input {
+      padding: 4px;
+      margin: 5px;
+      border-radius: 3px;
+      outline: none;
+      border: none;
+      border: solid 1px #919191;
+    }
+    button {
+      border: 1px solid rgb(152, 151, 151);
+      border-radius: 3px;
+      padding: 3px;
+      font-size: 14px;
+      color: rgb(97, 96, 96);
+      margin: 5px;
+      }
+      button:hover {
+          background: rgb(182, 180, 180);
+          cursor: pointer;
+          color: #f2f2f2;
+      }
+
+    .contact-emoji {
+      font-size: 50px;
+      vertical-align: middle;
+    }
+  }
+}
